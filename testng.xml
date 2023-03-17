@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FinalStudyMate">
+    <test name="test">
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="test.AichurokEje"/>
+            <class name="test.AnarBaike"/>
+            <class name="test.AyilchyBaike"/>
+            <class name="test.BaitikBaike"/>
+            <class name="test.Dilbara"/>
+            <class name="test.KaliiaEje"/>
+            <class name="test.MeerimEje"/>
+            <class name="test.Naziima"/>
+            <class name="test.ZarrinaEje"/>
+        </classes>
+    </test>
+</suite>
